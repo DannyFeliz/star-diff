@@ -1,0 +1,22 @@
+{
+  "name": "vue-react-github-stars",
+  "version": "1.0.0",
+  "description": "Just a simple app to get the github stars of Vue and React repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "star",
+    "react",
+    "vue"
+  ],
+  "author": "Danny Feliz <dannyfeliz08@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "moment": "^2.20.1"
+  }
+}
