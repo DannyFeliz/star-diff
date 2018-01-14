@@ -24,8 +24,8 @@ function displayHeaderData() {
         formatedTime: originalResetDate.format("hh:mm:ss A")
     }
     log(chalk.magenta(`HEADER INFORMATION`));
-    log(chalk.redBright(`LIMIT \t REMAINIG \t RESET TIME`));
-    log(chalk.yellowBright(`${headerData.limit} \t ${headerData.remaining} \t\t ${resetTime.agoTime} (${resetTime.formatedTime})`));
+    log(chalk.redBright(`LIMIT \t REMAINIG REQUESTS \t RESET TIME`));
+    log(chalk.yellowBright(`${headerData.limit} \t\t ${headerData.remaining} \t\t ${resetTime.agoTime} (${resetTime.formatedTime})`));
     log(chalk.whiteBright(`\t`));
 }
 
