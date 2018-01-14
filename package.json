@@ -1,7 +1,7 @@
 {
   "name": "vue-react-github-stars",
   "version": "1.0.0",
-  "description": "Just a simple app to get the github stars of Vue and React repository",
+  "description": "A simple app to get the github stars of Vue and React repository",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
