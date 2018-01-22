@@ -14,7 +14,7 @@ $ npm install
 ## Usage
 
 ```bash
-$ star-diff <repo1> <repo2>
+$ star-diff <repo1> <repo2> [option]
 ```
 # Example
 ```bash
