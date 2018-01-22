@@ -16,7 +16,7 @@ app
   .description(packageJson.description)
   .usage("<repo1> <repo2>")
   .arguments("<repo1> <repo2>")
-  .option("-s, --stats", "Display request Github stats")
+  .option("-s, --stats", "display request Github stats")
   .action((repo1, repo2) => {
     getRepoData(repo1, repo2).then(({ resultRepo1, resultRepo2 }) => {
       displayRepoStats(resultRepo1, resultRepo2);
