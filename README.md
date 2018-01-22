@@ -14,7 +14,7 @@ $ npm install -g star-diff
 ```bash
 $ star-diff <repo1> <repo2> [option]
 ```
-# Example
+## Example
 ```bash
 $ star-diff react vue -s
 # or if you want to be more especify you can add the organization or owner of the repository
