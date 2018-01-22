@@ -1,12 +1,12 @@
 {
   "name": "star-diff",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Makes a star diff between two Github repository",
   "main": "star-diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./star-diff.js",
+  "bin": "star-diff.js",
   "keywords": [
     "github",
     "star",
