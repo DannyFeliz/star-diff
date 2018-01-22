@@ -18,7 +18,7 @@ $ star-diff <repo1> <repo2> [option]
 ```bash
 $ star-diff react vue -s
 ```
-![](https://i.imgur.com/RGaI3a2.png)
+![](https://i.imgur.com/3QxB8ZR.png)
 
 ## Options
 <table>
