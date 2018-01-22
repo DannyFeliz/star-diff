@@ -6,7 +6,7 @@ const cliTable = require("cli-table2");
 const colors = require("colors");
 const log = console.log;
 const moment = require("moment");
-const packageJson = require("./package.json");
+const packageJson = require("../package.json");
 
 axios.defaults.baseURL = "https://api.github.com/search/repositories";
 axios.defaults.params = { per_page: 1 };
