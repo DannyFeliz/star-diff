@@ -1,16 +1,16 @@
 {
   "name": "star-diff",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Makes a star diff between two Github repository",
   "main": "star-diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": ".star-diff.js",
   "keywords": [
     "github",
     "star",
-    "react",
-    "vue"
+    "diff"
   ],
   "author": "Danny Feliz <dannyfeliz08@gmail.com>",
   "license": "MIT",
