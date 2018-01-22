@@ -6,9 +6,7 @@
 
 ## Installation
 ```bash
-$ git clone https://github.com/DannyFeliz/star-diff
-$ cd star-diff
-$ npm install
+$ npm install -g star-diff
 ```
 
 ## Usage
