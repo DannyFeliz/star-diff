@@ -1,8 +1,8 @@
 {
-  "name": "vue-react-github-stars",
+  "name": "star-diff",
   "version": "1.0.0",
-  "description": "A simple app to get the github stars of Vue and React repository",
-  "main": "index.js",
+  "description": "Makes a star diff between two Github repository",
+  "main": "star-diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,7 +16,11 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.17.1",
-    "chalk": "^2.3.0",
+    "cli-table2": "^0.2.0",
+    "commander": "^2.13.0",
     "moment": "^2.20.1"
+  },
+  "engines": {
+    "node": ">=8.5.0"
   }
 }
