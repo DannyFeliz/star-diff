@@ -2,7 +2,7 @@
 > A simple app to get the github stars of Vue and React repository
 
 ## Preview
-![](https://i.imgur.com/7oah3XX.png)
+![](https://i.imgur.com/hObeibW.png)
 
 ## Installation
 ```bash
