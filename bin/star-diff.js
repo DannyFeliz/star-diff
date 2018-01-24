@@ -123,7 +123,7 @@ function displayGithubStats() {
     formatedTime: originalResetDate.format("hh:mm:ss A")
   };
   const table = new cliTable({
-    head: ["LIMIT", "REMAINIG REQUESTS", "RESET TIME"]
+    head: ["LIMIT", "REMAINING REQUESTS", "RESET TIME"]
   });
 
   table.push([
