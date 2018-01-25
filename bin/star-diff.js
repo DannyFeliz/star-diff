@@ -29,7 +29,7 @@ if (!app.args.length) app.help();
 /**
  * why not ¯\_(ツ)_/¯
  */
-function empyLine() {
+function emptyLine() {
   console.log("");
 }
 
@@ -40,19 +40,19 @@ function empyLine() {
  * @param {Object} repo2 
  */
 async function getRepoData(repo1, repo2) {
-  empyLine();
+  emptyLine();
   log(colors.blue(`Searching ${repo1}...`));
   let resultRepo1 = await axios({ params: { q: repo1 } }).then(data => {
     updateHeaderData(data.headers);
     log(colors.blue(`Found https://github.com/${data.data.items[0].full_name}`));
     return data.data.items[0];
   });
-  empyLine();
+  emptyLine();
   log(colors.green(`Searching ${repo2}...`));
   let resultRepo2 = await axios({ params: { q: repo2 } }).then(data => {
     updateHeaderData(data.headers);
     log(colors.green(`Found https://github.com/${data.data.items[0].full_name}`));
-    empyLine();
+    emptyLine();
     return data.data.items[0];
   });
 
@@ -134,4 +134,3 @@ function displayGithubStats() {
 
   console.log(table.toString());
 }
-
