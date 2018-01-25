@@ -2,7 +2,7 @@
 > Makes a star diff between two Github repository
 
 ## Preview
-![](https://i.imgur.com/yDmkUiA.png)
+![](https://i.imgur.com/pXcxlj0.png)
 
 ## Installation
 ```bash
@@ -20,7 +20,7 @@ $ star-diff react vue -s
 # or if you want to be more especify you can add the organization or owner of the repository
 $ star-diff facebook/react vuejs/vue -s
 ```
-![](https://i.imgur.com/3QxB8ZR.png)
+![](https://i.imgur.com/Qp5f0t1.png)
 
 ## Options
 <table>
