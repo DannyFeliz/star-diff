@@ -49,5 +49,5 @@ $ star-diff facebook/react vuejs/vue -s
 </table>
 
 ## Importants notes
-- Node.js version `>=8.5.0`, if you want to check out what version of node you have installed run in the terminal `node -v`
+- Node.js `>=8.0.0` is required to use this package, if you want to check out what version of node you have installed run in the terminal `node -v`
 - If you suddenly start having errors, it is probably because you have exhausted the calls to the Github API, use the `-s` flag to show the statistics of the remaining calls and the time in which API calls are renewed.
