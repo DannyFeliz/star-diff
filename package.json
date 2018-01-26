@@ -1,6 +1,6 @@
 {
   "name": "star-diff",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Makes a star diff between two Github repository",
   "main": "star-diff.js",
   "scripts": {
@@ -26,6 +26,6 @@
     "moment": "^2.20.1"
   },
   "engines": {
-    "node": ">=8.5.0"
+    "node": ">=8.0.0"
   }
 }
