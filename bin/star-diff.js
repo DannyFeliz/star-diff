@@ -14,7 +14,7 @@ axios.defaults.params = { per_page: 1 };
 app
   .version(packageJson.version)
   .description(packageJson.description)
-  .usage("<repo1> <repo2>")
+  .usage("<repo1> <repo2> [options]")
   .arguments("<repo1> <repo2>")
   .option("-s, --stats", "display request Github stats")
   .action((repo1, repo2) => {
