@@ -1,6 +1,6 @@
 {
   "name": "star-diff",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Makes a star diff between two Github repositories",
   "main": "star-diff.js",
   "scripts": {
