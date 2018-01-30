@@ -1,5 +1,5 @@
 # star-diff
-> Makes a star diff between two Github repository
+> Makes a star diff between two Github repositories
 
 ## Preview
 ![](https://i.imgur.com/3KSah2V.png)
