@@ -1,6 +1,6 @@
 {
   "name": "star-diff",
-  "version": "1.0.18",
+  "version": "1.0.19",
   "description": "Makes a star diff between two Github repositories",
   "main": "star-diff.js",
   "scripts": {
@@ -15,9 +15,9 @@
   "author": "Danny Feliz <dannyfeliz08@gmail.com>",
   "license": "MIT",
   "bugs": "https://github.com/DannyFeliz/star-diff/issues/new",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/DannyFeliz/star-diff"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DannyFeliz/star-diff"
   },
   "dependencies": {
     "axios": "^0.17.1",
