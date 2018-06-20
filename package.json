@@ -1,7 +1,7 @@
 {
   "name": "star-diff",
   "version": "1.0.21",
-  "description": "Makes a star diff between two Github repositories",
+  "description": "Performs a comparison of the github stars between two repositories",
   "main": "star-diff.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +11,7 @@
     "github",
     "star",
     "diff",
-    "cli",
+    "cli"
   ],
   "author": "Danny Feliz <dannyfeliz08@gmail.com>",
   "license": "MIT",
