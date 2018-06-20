@@ -1,33 +1,39 @@
 # star-diff
 [<img src="https://img.shields.io/npm/dt/star-diff.svg">](https://www.npmjs.com/package/star-diff)
 [<img src="https://img.shields.io/npm/v/star-diff.svg">](https://www.npmjs.com/package/star-diff)
-> Makes a star diff between two Github repositories
+> Performs a comparison of the github stars between two repositories
 
 ## Preview
 
-![](https://i.imgur.com/3KSah2V.png)
+![](https://i.imgur.com/p6asRIl.png)
 
 ## Installation
 
 ```bash
 $ npm install -g star-diff
+
+# or with yarn
+
+$ yarn global add star-diff
 ```
 
 ## Usage
 
 ```bash
-$ star-diff <repo1> <repo2> [Options]
+$ star-diff <repo1> <repo2> [options]
 ```
 
 ## Example
 
 ```bash
-$ star-diff react vue -s
+$ star-diff react vue
+
 # or if you want to be more especify you can add the organization or owner of the repository
-$ star-diff facebook/react vuejs/vue -s
+
+$ star-diff facebook/react vuejs/vue
 ```
 
-![](https://i.imgur.com/vsn2EPW.png)
+![](https://i.imgur.com/bQ6mX9h.png)
 
 ## Options
 
@@ -44,11 +50,11 @@ $ star-diff facebook/react vuejs/vue -s
                 <td>-V, --version</td>
                 <td>output the version number</td>
             </tr>
-             <tr>
+            <tr>
                 <td>-s, --stats</td>
                 <td>display request Github stats</td>
             </tr>
-             <tr>
+            <tr>
                 <td>-h, --help</td>
                 <td>output usage information</td>
             </tr>

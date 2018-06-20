@@ -1,6 +1,6 @@
 {
   "name": "star-diff",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Makes a star diff between two Github repositories",
   "main": "star-diff.js",
   "scripts": {
@@ -10,7 +10,8 @@
   "keywords": [
     "github",
     "star",
-    "diff"
+    "diff",
+    "cli",
   ],
   "author": "Danny Feliz <dannyfeliz08@gmail.com>",
   "license": "MIT",
@@ -20,10 +21,10 @@
     "url": "https://github.com/DannyFeliz/star-diff"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.18.0",
     "cli-table2": "^0.2.0",
-    "commander": "^2.13.0",
-    "moment": "^2.20.1"
+    "commander": "^2.15.1",
+    "moment": "^2.22.2"
   },
   "engines": {
     "node": ">=8.0.0"
