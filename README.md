@@ -5,7 +5,7 @@
 
 ## Preview
 
-![](https://i.imgur.com/p6asRIl.png)
+[![asciicast](https://asciinema.org/a/mCVQf8MgExBspKcKxqLHIyX3p.png)](https://asciinema.org/a/mCVQf8MgExBspKcKxqLHIyX3p)
 
 ## Installation
 
