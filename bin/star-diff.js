@@ -62,14 +62,14 @@ let hasError = false;
  */
 async function fetchRepoData(repo) {
   emptyLine();
-  log(colors.blue(`Searching ${repo}...`));
+  log(colors.white(`Searching ${repo}...`));
 
   let resultRepo = await axios({ params: { q: repo } })
     .then(data => {
       if (!data.data.total_count) return;
       updateHeaderData(data.headers);
       log(
-        colors.blue(`Found https://github.com/${data.data.items[0].full_name}`)
+        colors.white(`Found https://github.com/${data.data.items[0].full_name}`)
       );
       return data.data.items[0];
     })
@@ -161,7 +161,7 @@ function displayRepoStats(repo1, repo2) {
 
   let winnerColor = "";
   if (repo1.stars > repo2.stars) {
-    winnerColor = "blue";
+    winnerColor = "yellow";
   } else if (repo1.stars < repo2.stars) {
     winnerColor = "green";
   } else {
@@ -173,7 +173,7 @@ function displayRepoStats(repo1, repo2) {
   });
 
   repoTable.push(
-    [colors.blue(repo1.name), colors.blue(repo1.stars.toLocaleString())],
+    [colors.yellow(repo1.name), colors.yellow(repo1.stars.toLocaleString())],
     [colors.green(repo2.name), colors.green(repo2.stars.toLocaleString())],
     [
       {
