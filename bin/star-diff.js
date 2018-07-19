@@ -2,7 +2,7 @@
 
 const app = require("commander");
 const axios = require("axios");
-const cliTable = require("cli-table2");
+const cliTable = require("cli-table3");
 const colors = require("colors");
 const log = console.log;
 const moment = require("moment");
