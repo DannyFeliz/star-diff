@@ -1,7 +1,7 @@
 # star-diff
 [<img src="https://img.shields.io/npm/dt/star-diff.svg">](https://www.npmjs.com/package/star-diff)
 [<img src="https://img.shields.io/npm/v/star-diff.svg">](https://www.npmjs.com/package/star-diff)
-> Performs a comparison of the github stars between two repositories
+> Performs a comparison of the github stars between two repositories.
 
 ## Preview
 
